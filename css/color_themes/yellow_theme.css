@@ -1,0 +1,53 @@
+/*** start default theme ***/
+.mybutton,
+.toolbox i,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover,
+.carousel-indicators .active,
+.our-skills .skills .progress-bar,#scrollTop i{
+    background: #749000;
+}
+
+.mybutton:hover,
+.mybutton:checked,
+.mybuuton:active,
+.mybutton:focus,
+#scrollTop i:hover{
+    background: #88a800;
+}
+.navbar-inverse .navbar-brand:hover span{
+    color: #88a800;
+}
+.toolbox .colortool,
+.dropdown-menu,
+.feat span,
+.testim .carousel-inner blockquote,
+.testim .carousel-indicators li,
+.services .plan:hover .price,
+.services .plan:hover,
+.our-skills .adteam h2{
+    border-color:#749000;
+}
+
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.feat span,
+.testim .carousel-inner blockquote footer,
+body > footer h3,
+body > footer .copyright span,
+.services .plan span{
+    color: #749000;
+}
+@media (max-width:767px )
+{
+    .services .plan:hover{
+    box-shadow: 4px 7px 25px #749000;
+    }
+    
+}
+ 
+
+

@@ -1,0 +1,44 @@
+/*samrt phones and tablets*/
+@media (max-width:767px )
+{
+    .navbar-inverse .navbar-nav > .active > a{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    } 
+    .navbar-toggle{
+        margin-top: 15px;
+        margin-right: 75px;
+    }
+    .services .plan:hover{
+    transform:none;
+    }
+    .carousel-caption{
+        bottom: 65px;
+    }
+    .subscribe input{
+        margin-bottom: 15px;
+    }
+    footer{
+        text-align: center;
+    }
+    footer .social-media{
+        margin: 10px auto;
+    }
+}
+/*small screen*/
+@media (min-width:768px) and (max-width:991px)
+{
+   .carousel-caption{
+        bottom: 15px;
+    } 
+}
+/*medium screen*/
+@media (min-width:992px) and (max-width:1199px)
+{
+    
+}
+/*large screen*/
+@media (min-width:1200px)
+{
+    
+}
